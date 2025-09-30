@@ -113,7 +113,7 @@ Description: ${description}
         Authorization: `Bearer ${process.env.OPENAI_KEY}`,
       },
       body: JSON.stringify({
-        model: "gpt-4o-mini",
+        model: "gpt-5-nano",
         messages: [
           {
             role: "system",
